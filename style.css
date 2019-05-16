@@ -1,0 +1,27 @@
+#board {
+    width: 800px;
+    height: 800px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: #000;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.bg-white {
+    background: white;
+}
+
+.active {
+    background-color: #12c329;
+    background-size: contain;
+}
+
+.selected {
+    background: #1220c3;
+}
